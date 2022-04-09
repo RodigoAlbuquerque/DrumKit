@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    background-image: url('./img/back.jpg') ;
+    background-size:  100%;
+}
+.title{
+    position: absolute;
+    top:32%;left:50%;
+    transform: translate(-50%,-50%);
+
+    font: bold 1.2rem serif;
+    color: yellow; 
+}
+.container{
+    display: flex;
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+ .content{
+    display: grid;
+    place-items: center;
+
+    width: 60px; height: 60px;
+    background-color: rgba(0, 0, 0, 0.336);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    
+    border: 0.5px solid white;
+    margin-left: 40px;
+
+    font: bold 1.3rem serif;
+    color: white;
+
+    cursor: pointer;
+}
+.newContent{
+    display: grid;
+    place-items: center;
+
+    width: 75px; height: 75px;
+    background-color: rgba(0, 0, 0, 0.336);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.466);
+    
+    border: 0.5px solid rgb(255, 255, 0);
+    margin-left: 40px;
+
+    font: bold 1.5rem serif;
+    color: yellow;  
+}
